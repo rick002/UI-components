@@ -29,6 +29,7 @@ a:hover {
 
 .btn { border: 0; }
 .btn-primary { background-color: var(--primary) !important; }
+.btn-secondary { background-color: var(--light) !important; }
 .btn-primary:hover { background-color: var(--primary) !important; }
 .btn-primary:target { background-color: var(--primary) !important;}
 
@@ -66,6 +67,10 @@ a:hover {
 @media (max-width: 768px) {
     .sidebar-container {
         display: none;
+    }
+
+    .btn-search {
+        top: 0;
     }
 
     .icon-x {
