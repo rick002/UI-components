@@ -23,6 +23,15 @@ a:hover {
 
 .bg-primary { background-color: var(--primary) !important;}
 .bg-light { background-color: var(--light) !important;}
+.bg-mix { background: linear-gradient(180deg, var(--light) 50%, var(--grey) 0);}
+.bg-grey { background-color: var(--grey) !important;}
+.bg-light { background-color: var(--light) !important;}
+
+.btn { border: 0; }
+.btn-primary { background-color: var(--primary) !important; }
+.btn-primary:hover { background-color: var(--primary) !important; }
+.btn-primary:target { background-color: var(--primary) !important;}
+
 
 .sidebar-container {
     min-height: 100vh;
@@ -38,4 +47,36 @@ a:hover {
 
 .avatar {
     max-width: 35px;
+}
+
+.content {
+    overflow-y: auto;
+    height: 100vh;
+    padding-bottom: 5rem;
+}
+
+.stat {
+    border-right: 1px solid var(--grey);
+}
+
+.icon-x {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .sidebar-container {
+        display: none;
+    }
+
+    .icon-x {
+        display: inline;
+    }
+
+    .sidebar-container-displayed {
+        display: block;
+    }
+
+    .stat {
+        border: 0;
+    }
 }
