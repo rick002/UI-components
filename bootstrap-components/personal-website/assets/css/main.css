@@ -1,0 +1,20 @@
+:root {
+    --primary-color: #161d27;
+    --light-color: #ffffff;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    color: var(--primary-color);
+    letter-spacing: 0.5mm;
+}
+
+.bg-primary { background-color: var(--primary-color) !important; }
+
+.navbar { min-height: 80px; }
+.navbar-brand { color: var(--light-color) !important; font-family: 'Dancing Script', cursive; font-family: 'Source Sans Pro', sans-serif;}
+.nav-link { color: var(--light-color) !important; }
+.nav-link:hover { color: var(--light-color) !important; }
+
+.hero-slider { padding: 100px 0; }
