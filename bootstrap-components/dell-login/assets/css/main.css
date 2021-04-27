@@ -17,3 +17,13 @@ body {
     min-height: 3.125rem;
     line-height: initial;
 }
+
+.img-1, .img-2 {
+    background-image: url('/assets/imgs/one.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.img-2 {
+    background-image: url('/assets/imgs/two.jpg');
+}
